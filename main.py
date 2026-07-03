@@ -18,9 +18,6 @@ app.add_middleware(
     allow_credentials=True,
 )
 
-# Call load_dotenv() at startup as requested
-load_dotenv()
-
 # Supported configuration keys
 SUPPORTED_KEYS = {"port", "workers", "debug", "log_level", "api_key"}
 
